@@ -11,4 +11,8 @@
 
 관련 수업 예정
 
+git add .
+git commit -m "feat: 20250212 hello.md uploaded"
+git push
+
 
