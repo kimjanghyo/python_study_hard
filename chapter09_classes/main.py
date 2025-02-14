@@ -73,11 +73,11 @@ calss 클래스 명 (대문자):
 객체 생성형식:                        함수 호출을 생각하시면 비슷합니다.
 객체 이름 = 클래스 명
 '''
-class WaffleMachine:
-    pass
-
-waffle = WaffleMachine()
-print(waffle)
+# # class WaffleMachine:
+# #     pass
+# #
+# # waffle = WaffleMachine()
+# # print(waffle)
 '''
 print(waffle)을 시켰을떄 < __main__.WaffleMachine object at 0x00001D3D89AE180>에서 object라고 표기하느 점을 미루어 보아 walffle은 WalffleNachine의 객체임
 
@@ -100,3 +100,71 @@ print(waffle)을 시켰을떄 < __main__.WaffleMachine object at 0x00001D3D89AE1
 인스턴스 메서드
 
 '''
+# class Person:
+#     def set_info(self, name, age, tel, address):
+#         self.name = name
+#         self.age = age
+#         self.tel = tel
+#         self.address = address
+#
+#     def display_info(self):
+#         print(f"이름 : {self.name}")
+#         print(f"나이 : {self.age}")
+#         print(f"전화번호 : {self.tel}")
+#         print(f"주소 : {self.address}")
+
+    # #객체 생성
+    #
+    #
+    # person1 = Person()
+    # print(person1)
+    # person1.set_info("kjh", 38, "010-1234-1234", "Busan")
+    # print(person1.display_info())
+
+#     def display_info2(self):
+#         return f"제 이름은 {self.name}이고, {self.age}살이며, \n전화번호는 {self.tel}이며,  주소는 {self.address}입니다."
+#
+#
+# person2 = Person()
+# person2.set_info("kjh", 21, "010-5678-5678", "Korea")
+# print(person2.display_info())
+                                    #self는 인스턴스 메서드에 항상 있었야 하기에 아직 인스턴슬르 생성하지 않았기 때문에 인스턴스 이름이 없습니다.
+                                    #추후 인스턴스 생성하게 된다면 인스턴스 명 .name 등으로 시작합니다.
+'''
+으용ㅇ 예제 
+
+다음 지시상황을 읽고 책 제목과 저자 정보를 저장할 수 있는 book 클래스 생성하세요
+객체 생성 ㅅ;ㄹ행 예를 구하시오
+
+book1 = Book()
+book2 = Book()
+
+set_info(self, title, author)을 통해 책 제목 입력하세요.
+display_info()를 통해 실행 예와 같이 출렷하세요
+
+
+
+'''
+
+# class Book:
+#     def self_info(self, title, author, stock):
+#         self.title = title
+#         self.author = author
+#         self.stock = stock
+#
+#     def display_info(self):
+#         print(f"책 제목 : {self.title}")
+#         print(f"저자 : {self.author}")
+#         print(f" 권 수 : {self.stock}")
+#     def display_info2(self):
+#         return f" 책 이름은 {self.title}\n저자는 {self.author}입니다 그리고 {self.stock}권 입니다.."
+#
+# book1 = Book()
+# book1.self_info("파이썬", "민경태", 3)
+# book2 = Book()
+# book2.self_info("어린왕자", "생텍쥐페리", 10)
+# print(book1.display_info())
+# print(book2.display_info())
+#
+# print(book1.title)
+# print(book1.stock +2)
