@@ -12,7 +12,7 @@
 관련 수업 예정
 
 git add .
-git commit -m "feat: 20250219 hello.md uploaded"
+git commit -m "feat: 20250220 hello.md uploaded"
 git push
 
 
